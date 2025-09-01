@@ -1,0 +1,250 @@
+
+body{
+background: linear-gradient(to right,rgb(53, 36, 128),rgb(29, 11, 134),rgb(11, 56, 141));
+color: white;
+justify-items: center;
+text-align: center;
+ }
+
+.baslik{
+      color: rgb(166, 255, 0);
+   text-align: center;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: xx-large;
+   background:linear-gradient(to right,rgb(74, 211, 188), rgb(62, 59, 190));
+    border-radius: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style:outset;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+   height: 50px;
+   width: 100%;
+}
+
+
+ .kutu{
+   position: absolute;
+   top: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(1, 153, 190);
+    width: 530px;
+    height:130px;
+    font-size: large;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    border-color: rgb(255, 0, 0);
+    border-style:outset;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+
+    background: rgba(71, 50, 50, 0.2); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+ }
+
+ .bilgi
+ {
+   position: absolute;
+   top: 250px;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     backdrop-filter: blur(1000px);
+     width: 530px;
+    height:100px;
+    font-size: large;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    border-color: rgb(255, 0, 0);
+    
+   border-style:outset;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+
+       background: rgba(71, 50, 50, 0.2); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+ }
+
+.hobiler{
+    position: absolute;
+   top: 370px;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     backdrop-filter: blur(1000px);
+     width: 530px;
+    height:120px;
+    font-size: large;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    border-color: rgb(255, 0, 0);
+    
+   border-style:outset;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+
+    background: rgba(71, 50, 50, 0.2); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+}
+
+ .kutu:hover,.bilgi:hover,.hobiler:hover{
+   transition: ease-in-out 0.4s;
+   transform: scale(1.05);
+ }
+
+
+.instagram{
+  width: 50px;
+   height: 40px;
+   border-radius: 20px;
+   font-size: large;
+   border: none;
+  
+}
+
+.whatsapp
+{
+   width: 50px;
+   height: 40px;
+   border-radius: 20px;
+   font-size: large;
+   border: none;
+  
+}
+
+
+
+.instagram:hover{
+   transition: ease-in-out 0.2s;
+   transform: scale(1.04);
+   background: linear-gradient(to right,rgb(255, 175, 188),rgb(196, 127, 0));
+   
+}
+
+.whatsapp:hover{
+    transition: ease-in-out 0.2s;
+   transform: scale(1.04);
+background: green;
+}
+
+input{
+   display: none;
+position: absolute;
+top: 280px;
+right: 60px;
+margin-top: 10px;
+}
+
+.kutular{
+     display:flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   gap: 19px;
+}
+
+.butonlar{
+   
+   display:flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   gap: 15px;
+   padding-top: 5px;
+   background:  rgb(243, 175, 92);
+   position: absolute;
+   width: 60px;
+   height: 100px;
+   top: 380px;
+   right: 10px;
+   border-radius: 10px;
+
+}
+
+
+h2{
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 20px;
+   position: absolute;
+   bottom: 0px;
+   color: rgb(135, 207, 20);
+}
+
+.telefon{
+   background-color: rgb(8, 7, 109);
+   color: rgb(135, 207, 20);
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 22px;
+   position: absolute;
+   bottom: 50px;
+   left: 10px;
+   width: 260px;
+   height: 25px;
+   border-radius: 10px;
+   border-color: aqua;
+   border-style:outset;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+}
+
+.sosyal{
+      background-color: rgb(8, 7, 109);
+   color: rgb(135, 207, 20);
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 22px;
+   position: absolute;
+   bottom: 10px;
+   left: 10px;
+   width: 320px;
+   height: 27px;
+   border-radius: 10px;
+   border-color: aqua;
+   border-style:outset;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+}
+
+label{
+   text-shadow: 0 0 10px rgb(135, 207, 20);;
+   position: absolute;
+   top: 65px;
+   left: 30px; 
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: x-large;
+}
+
+#secim{
+   border-color:aqua ;
+   background-color: rgb(8, 7, 109);
+   color: rgb(135, 207, 20);
+   border-radius: 10px;
+   text-align: center;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: large;
+   position: absolute;
+   top: 100px;
+   left: 10px;
+   height: 30px;
+}
+
+h6{
+
+   font-size:medium;
+   color: rgb(255, 255, 255);
+   position: absolute;
+   top: 5px;
+   left: 32%;
+}
